@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Large raw datasets (download from Stanford SNAP if needed)
+sx-mathoverflow.txt
+sx-mathoverflow.txt.gz
+sx-mathoverflow.csv
+mathoverflow_cleaned.csv
+
+# Archives
+*.zip
+
+# Credentials / secrets
+.env
+*.pem
+*.key
+
+# Streamlit
+.streamlit/secrets.toml
